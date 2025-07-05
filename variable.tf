@@ -1,10 +1,10 @@
 variable "vpc_cidr" {
-   type = "string"
+   type = string
 
 }
 
 variable "enable_dns_hostnames" {
-   default = "true"
+   default = true
 
 }
 
@@ -13,12 +13,12 @@ variable "common_tags" {
 }
 
 variable "environment" {
-    type = "string"
+    type = string
 
 }
 
 variable "project_name" {
-    type = "string"
+    type = string
 
 }
 
