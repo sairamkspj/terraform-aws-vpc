@@ -1,4 +1,4 @@
-variable "cvpc_idr" {
+variable "vpc_cidr" {
    type = "string"
 
 }
