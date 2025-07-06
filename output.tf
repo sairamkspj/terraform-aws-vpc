@@ -1,3 +1,3 @@
 output "az_names"{
-  value = data.aws_availability_zones.avaliable
+  value = data.aws_availability_zones.available
 }
