@@ -26,3 +26,18 @@ variable "vpc_tags" {
     default = {}
 
 }
+
+variable "public_subnet_tags" {
+    default = {}
+
+}
+
+variable "public_subnet_cidrs" {
+    type = list
+    validation{
+        condition = length(var.public_subnet_cidrs)==3
+        error_message = "please provide two subnet cidrs"
+
+    }
+
+}
